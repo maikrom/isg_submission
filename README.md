@@ -12,3 +12,8 @@ So my best bet was to optimize AutoGluon's Stack height and Bagging hyperparamet
 At the point of submitting my last models this seems at least pretty effective, giving me second place on the leaderboard in both public leaderboards. But only the future will tell how those models generalize to the other half of the data.
 
 Luckily this makes running the code yourself very easy, just install the requirements via the below commands and run the python files in the respective folders. (This worked on my Mac and Windows systems). In case this doesn't work you only need to follow the AutoGluon Installation guide and install pandas.
+
+
+conda create -n myenv python=3.9 -y
+conda activate myenv
+pip install -r requirements.txt
